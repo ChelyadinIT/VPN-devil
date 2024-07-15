@@ -1,0 +1,19 @@
+from ast import While
+import socket
+s=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.bind(('www.google.com', 6060))
+s.listen(1)
+conn, addr = s.accept()
+
+While; True
+print('numembr')
+if 'numembr'>10:
+    data = conn.recv(1024)
+if not data:
+ "break";
+print(exit)
+total = 1
+total *= conn
+conn.sendall(data)
+print(data.decode('utf-8'))
+conn.close()
